@@ -1,0 +1,169 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// // Our variables
+// $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $base-font-size:   16px;
+// $base-font-weight: 400;
+// $small-font-size:  $base-font-size * 0.875;
+// $base-line-height: 1.5;
+
+// $spacing-unit:     30px;
+
+// $text-color:       #111;
+// $background-color: #fdfdfd;
+// $brand-color:      #2a7ae2;
+
+// $grey-color:       #828282;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
+
+// // Width of the content area
+// $content-width:    800px;
+
+// $on-palm:          600px;
+// $on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// // Import partials from `sass_dir` (defaults to `_sass`)
+// @import
+//         // "base",
+//         // "layout",
+//         // "syntax-highlighting",
+//         "post"
+// ;
+
+h1 {
+    // color:rgb(89,38,32);
+    color:rgb(115,12,32);
+    font-weight: bold;
+    color: orange;
+}
+body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+div.home {
+    height: 100vh;
+    padding-top: 50px;
+    position: relative;
+}
+%half{
+    position: absolute;
+    background-color:black;
+    height: 50vh;
+    width: 100vw;
+    
+    .halfdown-line {
+        width: 100vw;
+        border-image: url(../arts-assets/line.png) 24 repeat;
+        border-top: solid 24px;
+        margin-top: -12px;
+        &.bottom{
+            position:absolute;
+            bottom:-12px;
+        }
+    } 
+}
+.hr-line {
+    margin-top: -12px;
+    width: 100vw;
+    border-image: url(../arts-assets/line.png) 24 repeat;
+    border-top: solid 24px;
+}
+.halfdown {
+    @extend %half;
+    bottom: 0;
+}
+.halfup {
+    @extend %half;
+    top: 0;
+}
+
+div.about{
+    left: 33%;
+    width: 67%;
+    padding: 20px 40px;
+    height: 50vh;
+    
+    bottom: 0;
+    position: absolute;
+    // background-color:rgba(255,255,255,0.5);
+    color: white;
+    h1.name{
+        // padding-left: 40px;
+        margin-top: -60px;
+        // margin-left: 30%;
+        color:black;
+        font-size: 3em;
+        height: 1em
+    }   
+}
+
+div.portfolio {
+    background-color:black;
+}
+img.home-side-img{
+
+    position: absolute;
+    left: 0;
+    height: 100vh;
+}
+footer{
+    position: relative;
+    height: 200px;
+}
+@include media-query(968px){
+    div.about{
+        h1.name{
+            font-size: 2.6em;
+        }
+    }
+}
+@include media-query(758px){
+    div.about{
+        left: 0%;
+        width: 100%;
+
+        background-color: rgba(0,0,0,0.5);
+
+        h1.name{
+            color: #f98200;
+            font-size: 2.6em;
+            margin-top: -70px;
+        }
+    }
+}
+.icon {
+
+    svg {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        vertical-align: middle;
+
+        path {
+            fill: orange;
+        }
+    }
+}

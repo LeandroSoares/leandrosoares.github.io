@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class='home' id='about'>
+  <div class='halfdown'>
+    <div class='halfdown-line'></div>
+    <div class='halfdown-line bottom'></div>
+  </div>
+
+  <img class='home-side-img' src="arts-assets/sidehead.png" class='pull-left gap-right'>
+  
+  <div class='about'>
+    <h1 class='name'>LEANDRO SILVA SOARES</h1>
+    <h1 class="page-heading">About me!</h1>
+    <p>
+      Leandro Silva Soares: Graduated in Game Design at 
+      Anhembi Morumbi University(2012) and now student of 
+      System Analysis and Development at <a target='_blank' href="http://portal.ifspguarulhos.edu.br/">Federal Institute of São Paulo - Guarulhos</a>.
+    </p>
+  </div>
+</div>
+<div class="home portfolio" id='portfolio'>
+  <h1 class="page-heading">Portfolio</h1>
+
+  <ul class="post-list">
+    {% for post in site.tags.portfolio %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
