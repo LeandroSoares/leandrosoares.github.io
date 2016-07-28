@@ -2,8 +2,8 @@
 layout: post
 title:  "CramerC"
 date:   2016-07-26 21:14:39 -0300
-categories: portifolio C
 tag: portfolio
+thumb: "/postimgs/cramerc.jpg"
 ---
 #CramerC
 

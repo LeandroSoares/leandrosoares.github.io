@@ -122,6 +122,30 @@ div.about{
 
 div.portfolio {
     background-color:black;
+    .portfolio-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li {
+            list-style: none;
+            padding: 10px;
+            img {
+                width: 20vw;
+            }
+            a{
+                position: relative;
+                display: block;
+                height: 20vw;
+            }
+            h2 {
+                position: absolute;
+                bottom: 10px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+    }
 }
 img.home-side-img{
 
@@ -132,6 +156,27 @@ img.home-side-img{
 footer{
     position: relative;
     height: 200px;
+    .middleHolder{
+        a{
+            margin: 50px 10px;
+        }    
+    }
+}
+.middleHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icon {
+    svg {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        path {
+            fill: orange;
+        }
+    }
 }
 @include media-query(968px){
     div.about{
@@ -154,16 +199,4 @@ footer{
         }
     }
 }
-.icon {
 
-    svg {
-        display: inline-block;
-        width: 100px;
-        height: 100px;
-        vertical-align: middle;
-
-        path {
-            fill: orange;
-        }
-    }
-}
