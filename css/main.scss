@@ -201,6 +201,9 @@ footer {
 }
 article.post{
     margin-top: 50px;
+    img{
+        max-width: 100%;
+    }
 }
 @include media-query(968px){
     div.about{
