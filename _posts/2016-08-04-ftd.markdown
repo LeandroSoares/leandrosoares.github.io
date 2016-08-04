@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "FTD"
+date:   2016-08-04
+tag: portfolio
+thumb: "/portfolio-imgs/ftd/ftd.jpg"
+---
+
+Trabalhei para a <a href="http://www.ftd.com.br/" target="_blank">FTD</a> na programação de objetos educacionais para PNLD 2012 2013 e 2014.
+
+<div class='imggal'>
+    <img src="{{ site.url }}/portfolio-imgs/ftd/ftd-1-quebra-cabecas.jpg">
+</div>
+
+
+
+
