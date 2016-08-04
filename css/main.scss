@@ -59,6 +59,12 @@ h1 {
     font-weight: bold;
     color: orange;
 }
+a{
+    color: orange;
+}
+.portfolio h1 {
+    margin-left: 100px;
+}
 body{
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
@@ -203,6 +209,17 @@ article.post{
     margin-top: 50px;
     img{
         max-width: 100%;
+    }
+}
+div.imggal{
+    display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    img{
+        max-width: 320px;
+        margin: 10px;
+        box-sizing: border-box;
     }
 }
 @include media-query(968px){
