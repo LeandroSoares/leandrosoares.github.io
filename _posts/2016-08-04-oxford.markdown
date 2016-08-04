@@ -8,37 +8,67 @@ thumb: "/portfolio-imgs/oxford/oxford.jpg"
 
 Estes são trabalhos feitos para a <a href="https://global.oup.com/" target="_blank">Oxford united press</a>. Desenvolvi a programação base e cada template de *engines* e jogos. O foco era em *tablets*, logo todo layout se adjusta a resolução de tela. Aqui reuno algumas imagens do que produzi, pois por motivos de contrato, não posso hospedá-los, mas, posso fazer uma apresentação *offline*.
 <div class='imggal'>
-<img src="{{ site.url }}/portfolio-imgs/oxford/base-1.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/base-2-diferenca.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/base-3-galeria-imagens.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo3-a.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo3-b.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo4-a.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo4-a2.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo4-b.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo5-a.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo5-b.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo5-b2.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo6-a.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo6-b.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo7-a.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo7-b.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo8-a.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo8-b.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo9-a.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo9-b.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/jogo9-b2.jpg">
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/base-1.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/base-2-diferenca.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/base-3-galeria-imagens.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo3-a.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo3-b.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo4-a.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo4-a2.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo4-b.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo5-a.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo5-b.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo5-b2.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo6-a.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo6-b.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo7-a.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo7-b.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo8-a.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo8-b.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo9-a.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo9-b.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/jogo9-b2.jpg"><div class='mark'></div>
+    </span>
 
-<img src="{{ site.url }}/portfolio-imgs/oxford/quizz-01.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/quizz-02.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/quizz-03.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/quizz-04.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/quizz-05.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/quizz-06.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/quizz-07.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/quizz-08.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/quizz-09.jpg">
-<img src="{{ site.url }}/portfolio-imgs/oxford/quizz-10.jpg">
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/quizz-01.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/quizz-02.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/quizz-03.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/quizz-04.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/quizz-05.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/quizz-06.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/quizz-07.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/quizz-08.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/quizz-09.jpg"><div class='mark'></div>
+    </span>
+<span class='watermark'> <img src="{{ site.url }}/portfolio-imgs/oxford/quizz-10.jpg"><div class='mark'></div>
+    </span>
 
 
 </div>
