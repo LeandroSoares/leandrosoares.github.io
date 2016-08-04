@@ -64,7 +64,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 div.home {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 50px;
     position: relative;
 }
@@ -122,17 +122,25 @@ div.about{
 
 div.portfolio {
     background-color:black;
+
     .portfolio-list{
+    
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        margin: 0;
+        padding: 0;
+    
         li {
+    
             list-style: none;
             padding: 10px;
+           
             img {
                 width: 20vw;
             }
-            a{
+            a {
                 position: relative;
                 display: block;
                 height: 20vw;
@@ -144,7 +152,6 @@ div.portfolio {
                 text-align: center;
             }
         }
-
     }
 }
 img.home-side-img{
@@ -178,6 +185,9 @@ footer{
         }
     }
 }
+article.post{
+    margin-top: 50px;
+}
 @include media-query(968px){
     div.about{
         h1.name{
@@ -196,6 +206,13 @@ footer{
             color: #f98200;
             font-size: 2.6em;
             margin-top: -70px;
+        }
+ 
+    div.portfolio {
+           ul.portfolio-list{
+                flex-direction: column!important;
+                flex-wrap: nowrap!important;
+            }
         }
     }
 }
