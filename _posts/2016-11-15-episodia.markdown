@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "EPISÓDIA"
+date:   2016-11-15
+tag: portfolio
+thumb: "/portfolio-imgs/episoda/episodia.png"
+---
+
+Programação de site, mais curso scorm para a <a href="http://www.episodia.com.br/" target="_blank">Episódia</a> Aqui reuno algumas imagens do site e a capa do curso, como está em lançamento ainda não posso mostrá-lo.
+
+<div class='imggal'>
+    <span class="watermark">
+       <img src="{{site.url}}/portfolio-imgs/episodia/1.jpg">
+       <div class="mark"></div>
+   </span>
+   <span class="watermark">
+       <img src="{{site.url}}/portfolio-imgs/episodia/2.jpg">
+       <div class="mark"></div>
+   </span>
+   <span class="watermark">
+       <img src="{{site.url}}/portfolio-imgs/episodia/3.jpg">
+       <div class="mark"></div>
+   </span>
+   <span class="watermark">
+       <img src="{{site.url}}/portfolio-imgs/episodia/4.jpg">
+       <div class="mark"></div>
+   </span>
+
+</div>
