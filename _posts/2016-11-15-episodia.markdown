@@ -6,7 +6,7 @@ tag: portfolio
 thumb: "/portfolio-imgs/episodia/episodia.png"
 ---
 
-Programação de site, mais curso scorm para a <a href="http://www.episodia.com.br/" target="_blank">Episódia</a> Aqui reuno algumas imagens do site e a capa do curso, como está em lançamento ainda não posso mostrá-lo.
+Programação de site, mais curso scorm para a <a href="http://www.episodia.com.br/" target="_blank">Episódia</a>. Aqui reuno algumas imagens do site e a capa do curso, que está em lançamento, logo não posso mostrá-lo.
 
 <div class='imggal'>
     <span class="watermark">
