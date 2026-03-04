@@ -1,34 +1,48 @@
 ---
-layout: default
+layout: none
 ---
-<div class='home' id='about'>
-  <div class='halfdown'>
-    <div class='halfdown-line'></div>
-    <div class='halfdown-line bottom'></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leandro Soares — Coming Soon</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #1a1a2e;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    .container { max-width: 480px; }
+    h1 { font-size: 2rem; letter-spacing: 0.05em; margin-bottom: 1rem; color: #fff; }
+    p  { font-size: 1.1rem; line-height: 1.6; color: #aaa; margin-bottom: 2rem; }
+    .links a {
+      display: inline-block;
+      margin: 0.4rem 0.6rem;
+      color: #7ec8e3;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+    .links a:hover { border-color: #7ec8e3; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚧 Under Construction</h1>
+    <p>This site is currently being refactored and will be back soon.</p>
+    <div class="links">
+      <a href="https://github.com/LeandroSoares" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/leandrogamedesigner" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
   </div>
+</body>
+</html>
 
-  <img class='home-side-img' src="arts-assets/sidehead.png" class='pull-left gap-right'>
-
-  <div class='about'>
-    <h1 class='name'>LEANDRO SILVA SOARES</h1>
-    <h1 class="page-heading">About me!</h1>
-    <p>
-      Leandro Silva Soares: Graduado em Game Design pela Universidade Anhembi Morumbi e estudante de Analise e Desenvolvimento de Sistemas no <a target='_blank' href="http://portal.ifspguarulhos.edu.br/">Instituto Federal de Tecnologia de São Paulo - Campus Guarulhos</a>. Já trabalhei com desenvolvimento de treinamento eletrônico, jogos educacionais para mercado e PNLD, e como Designer instrucional tecnico.
-    </p>
-  </div>
-</div>
-<div class="home portfolio" id='portfolio'>
-  <h1 class="page-heading">Portfolio</h1>
-
-  <ul class="portfolio-list">
-    {% for post in site.tags.portfolio %}
-      <li>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            <img src="{{post.thumb}}">
-            <!-- <h2>{{ post.title }}</h2> -->
-          </a>
-      </li>
-    {% endfor %}
-  </ul>
-   <div class='hr-line'></div>
-</div>
